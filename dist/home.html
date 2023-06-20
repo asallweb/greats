@@ -6,7 +6,7 @@
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<!-- <style>body{opacity: 0;}</style> -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20230619142710">
+	<link rel="stylesheet" href="css/style.min.css?_v=20230620105841">
 	<link rel="shortcut icon" href="favicon.ico">
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -26,25 +26,212 @@
 				</div>
 				<a href="" class="header__logo"><img src="img/logo.svg" alt="Greats Logo"></a>
 				<div class="header__contact">
-					<a href="tel:+7 495 789 99 99" class="header__contact-phone">+7 495 789 99 99</a>
+					<a href="tel:+7 495 789 99 99" class="header__contact-phone">
+						+7 495 789 99 99
+						<svg width="24" height="24">
+							<use xlink:href="img/icons/icons.svg#phone"></use>
+						</svg>
+					</a>
 					<button class="header__contact-zakaz">Заявка</button>
 				</div>
 			</div>
 		</header>
 		<main class="page ">
-			<div class="main-slider__slider swiper">
+			<section class="main-slider swiper">
 				<div class="main-slider__wrapper swiper-wrapper">
 					<div class="main-slider__slide swiper-slide">
-						<picture><source srcset="img/content/slider-main-1.webp" type="image/webp"><img src="img/content/slider-main-1.png" alt="slider-main-1"></picture>
-						<div class="main-slider__title">Галерея современного автомобильного искусства</div>
-						<div class="main-slider__subtitle">Самые лучшие и актуальные модели автомобилей от европейских и американских брендов в наличии</div>
-						<a href="" class="main-slider__subtitle">Перейти в галерею</a>
+						<picture><source srcset="img/content/slider-main-2.webp" type="image/webp"><img src="img/content/slider-main-2.png" alt="slider-main-2" loading="lazy"></picture>
+					</div>
+					<div class="main-slider__slide swiper-slide">
+						<picture><source srcset="img/content/slider-main-1.webp" type="image/webp"><img src="img/content/slider-main-1.png" alt="slider-main-1" loading="lazy"></picture>
+					</div>
+					<div class="main-slider__slide swiper-slide">
+						<picture><source srcset="img/content/slider-main-2.webp" type="image/webp"><img src="img/content/slider-main-2.png" alt="slider-main-2" loading="lazy"></picture>
 					</div>
 				</div>
-			</div>
+				<div class="main-slider__slide-content">
+					<div class="main-slider__title">Галерея современного автомобильного искусства</div>
+					<div class="main-slider__subtitle">Самые лучшие и актуальные модели автомобилей от европейских и американских брендов в наличии</div>
+					<a href="" class="main-slider__detail">
+						Перейти в галерею
+						<svg width="18" height="18">
+							<use xlink:href="img/icons/icons.svg#arrow-top-right"></use>
+						</svg>
+					</a>
+				</div>
+				<div class="main-slider__pagination swiper-pagination"></div>
+			</section>
 			<div class="__container">
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, iste. Officiis architecto provident qui ea minus fuga temporibus, quam, aliquid, autem aspernatur deleniti quidem possimus aut molestiae commodi illum laboriosam!
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, iste. Officiis architecto provident qui ea minus fuga temporibus, quam, aliquid, autem aspernatur deleniti quidem possimus aut molestiae commodi illum laboriosam!
+				<section class="image-section">
+					<div class="image-section__images">
+						<div>
+							<picture><source srcset="img/content/image-1.webp" type="image/webp"><img src="img/content/image-1.png" alt="image-1" class="parallax"></picture>
+						</div>
+						<div>
+							<picture><source srcset="img/content/image-2.webp" type="image/webp"><img src="img/content/image-2.png" alt="image-2" class="parallax"></picture>
+						</div>
+					</div>
+					<div class="image-section__content">
+						<div class="image-section__title">Самый широкий и актуальный выбор лучших моделей в наличии в России для пополнения вашей коллекции</div>
+						<a href="" class="image-section__detail">
+							Галерея автомобилей
+							<svg width="18" height="18">
+								<use xlink:href="img/icons/icons.svg#arrow-top-right"></use>
+							</svg>
+						</a>
+						<div class="image-section__subtitle">Не привязаны к конкретному бренду — поможем подобрать наиболее подходящий для вас автомобиль.</div>
+					</div>
+				</section>
+				<section class="brand-list swiper">
+					<div class="brand-list__swiper swiper">
+						<div class="brand-list__wrapper swiper-wrapper">
+							<div class="brand-list__slide swiper-slide">
+								<img src="img/brands/BMW.svg" alt="">
+							</div>
+							<div class="brand-list__slide swiper-slide">
+								<img src="img/brands/CADILLAC.svg" alt="">
+							</div>
+							<div class="brand-list__slide swiper-slide">
+								<img src="img/brands/EB.svg" alt="">
+							</div>
+							<div class="brand-list__slide swiper-slide">
+								<img src="img/brands/Ferrary.svg" alt="">
+							</div>
+							<div class="brand-list__slide swiper-slide">
+								<img src="img/brands/lamborghini.svg" alt="">
+							</div>
+							<div class="brand-list__slide swiper-slide">
+								<img src="img/brands/land-rover.svg" alt="">
+							</div>
+							<div class="brand-list__slide swiper-slide">
+								<img src="img/brands/lexus.svg" alt="">
+							</div>
+							<div class="brand-list__slide swiper-slide">
+								<img src="img/brands/mercedes.svg" alt="">
+							</div>
+							<div class="brand-list__slide swiper-slide">
+								<img src="img/brands/tesla.svg" alt="">
+							</div>
+							<div class="brand-list__slide swiper-slide">
+								<img src="img/brands/BMW.svg" alt="">
+							</div>
+							<div class="brand-list__slide swiper-slide">
+								<img src="img/brands/CADILLAC.svg" alt="">
+							</div>
+							<div class="brand-list__slide swiper-slide">
+								<img src="img/brands/EB.svg" alt="">
+							</div>
+							<div class="brand-list__slide swiper-slide">
+								<img src="img/brands/Ferrary.svg" alt="">
+							</div>
+							<div class="brand-list__slide swiper-slide">
+								<img src="img/brands/lamborghini.svg" alt="">
+							</div>
+							<div class="brand-list__slide swiper-slide">
+								<img src="img/brands/land-rover.svg" alt="">
+							</div>
+							<div class="brand-list__slide swiper-slide">
+								<img src="img/brands/lexus.svg" alt="">
+							</div>
+							<div class="brand-list__slide swiper-slide">
+								<img src="img/brands/mercedes.svg" alt="">
+							</div>
+							<div class="brand-list__slide swiper-slide">
+								<img src="img/brands/tesla.svg" alt="">
+							</div>
+							<div class="brand-list__slide swiper-slide">
+								<img src="img/brands/BMW.svg" alt="">
+							</div>
+							<div class="brand-list__slide swiper-slide">
+								<img src="img/brands/CADILLAC.svg" alt="">
+							</div>
+							<div class="brand-list__slide swiper-slide">
+								<img src="img/brands/EB.svg" alt="">
+							</div>
+							<div class="brand-list__slide swiper-slide">
+								<img src="img/brands/Ferrary.svg" alt="">
+							</div>
+							<div class="brand-list__slide swiper-slide">
+								<img src="img/brands/lamborghini.svg" alt="">
+							</div>
+							<div class="brand-list__slide swiper-slide">
+								<img src="img/brands/land-rover.svg" alt="">
+							</div>
+							<div class="brand-list__slide swiper-slide">
+								<img src="img/brands/lexus.svg" alt="">
+							</div>
+							<div class="brand-list__slide swiper-slide">
+								<img src="img/brands/mercedes.svg" alt="">
+							</div>
+							<div class="brand-list__slide swiper-slide">
+								<img src="img/brands/tesla.svg" alt="">
+							</div>
+						</div>
+					</div>
+					<div class="swiper-navigation">
+						<button type="button" class="brand-list-prev swiper-button-prev">
+							<svg width="70" height="48">
+								<use xlink:href="img/icons/icons.svg#arrow-left"></use>
+							</svg>
+						</button>
+						<button type="button" class="brand-list-next swiper-button-next">
+							<svg width="70" height="48">
+								<use xlink:href="img/icons/icons.svg#arrow-right"></use>
+							</svg>
+						</button>
+					</div>
+				</section>
+				<section class="image-section _img-right _bd-top _bd-bottom _pt-50-20 _pb-50-20">
+					<div class="image-section__content">
+						<div class="image-section__title">Возьмем все заботы об автомобиле на себя во время покупки и даже после</div>
+						<a href="" class="image-section__detail">
+							Услуги
+							<svg width="18" height="18">
+								<use xlink:href="img/icons/icons.svg#arrow-top-right"></use>
+							</svg>
+						</a>
+					</div>
+					<div class="image-section__images">
+						<div><picture><source srcset="img/content/image-3.webp" type="image/webp"><img src="img/content/image-3.png" alt="image-3" class="parallax"></picture></div>
+					</div>
+				</section>
+				<section class="image-section">
+					<div class="image-section__images">
+						<div>
+							<picture><source srcset="img/content/image-4.webp" type="image/webp"><img src="img/content/image-4.png" alt="image-4" class="parallax"></picture>
+						</div>
+						<div>
+							<picture><source srcset="img/content/image-5.webp" type="image/webp"><img src="img/content/image-5.png" alt="image-5" class="parallax"></picture>
+						</div>
+					</div>
+					<div class="image-section__content">
+						<div class="image-section__title">Найдем любой автомобиль для вашей коллекции — от редких винтажных лотов до новейших моделей в особенной комплектации</div>
+						<a href="" class="image-section__detail">
+							Предзаказ
+							<svg width="18" height="18">
+								<use xlink:href="img/icons/icons.svg#arrow-top-right"></use>
+							</svg>
+						</a>
+					</div>
+				</section>
+				<section class="fllwdth-bnr">
+					<picture><source srcset="img/content/fllwdth-bnr-1.webp" type="image/webp"><img src="img/content/fllwdth-bnr-1.png" alt="fllwdth-bnr-1" class="parallax _show-only-desktop"></picture>
+					<picture><source srcset="img/content/fllwdth-bnr-1-mobile.webp" type="image/webp"><img src="img/content/fllwdth-bnr-1-mobile.png" alt="fllwdth-bnr-1" class="fllwdth-bnr__mobile-image _show-only-mobile"></picture>
+					<div class="fllwdth-bnr__content">
+						<div class="fllwdth-bnr__text">GREATS — это больше чем продажа машин, мы фанаты автомобилей и всего что с ними связано. Поможем подобрать не просто самое лучшее на рынке, но и подарить вам новые уникальные эмоции.</div>
+						<a href="" class="main-slider__detail">
+							GREATS blog
+							<svg width="18" height="18">
+								<use xlink:href="img/icons/icons.svg#arrow-top-right"></use>
+							</svg>
+						</a>
+					</div>
+				</section>
+				<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed, quaerat? Perspiciatis adipisci delectus eveniet dolores, alias soluta, voluptas aliquam maxime repellendus, sed magni odit? Quisquam, molestias saepe. Tenetur, dicta possimus.</p>
+				<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed, quaerat? Perspiciatis adipisci delectus eveniet dolores, alias soluta, voluptas aliquam maxime repellendus, sed magni odit? Quisquam, molestias saepe. Tenetur, dicta possimus.</p>
+				<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed, quaerat? Perspiciatis adipisci delectus eveniet dolores, alias soluta, voluptas aliquam maxime repellendus, sed magni odit? Quisquam, molestias saepe. Tenetur, dicta possimus.</p>
+				<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed, quaerat? Perspiciatis adipisci delectus eveniet dolores, alias soluta, voluptas aliquam maxime repellendus, sed magni odit? Quisquam, molestias saepe. Tenetur, dicta possimus.</p>
+				<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed, quaerat? Perspiciatis adipisci delectus eveniet dolores, alias soluta, voluptas aliquam maxime repellendus, sed magni odit? Quisquam, molestias saepe. Tenetur, dicta possimus.</p>
 			</div>
 		</main>
 		<footer class="footer">
@@ -52,7 +239,7 @@
 			</div>
 		</footer>
 	</div>
-	<script src="js/app.min.js?_v=20230619142710"></script>
+	<script src="js/app.min.js?_v=20230620105841"></script>
 </body>
 
 </html>

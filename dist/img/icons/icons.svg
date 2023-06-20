@@ -1,0 +1,11 @@
+<svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><symbol viewBox="0 0 70 48" id="arrow-left" xmlns="http://www.w3.org/2000/svg">
+<path d="M70 22.1455L70 25.8545L7.15308 25.8544L18.5451 37.2465L15.8958 39.8958L-8.37534e-05 23.9999L15.8959 8.10398L18.5452 10.7533L7.15308 22.1454L70 22.1455Z"/>
+</symbol><symbol viewBox="0 0 70 48" id="arrow-right" xmlns="http://www.w3.org/2000/svg">
+<path d="M-8.91548e-06 25.8545L-3.86537e-06 22.1455L62.8469 22.1456L51.4549 10.7535L54.1042 8.10419L70.0001 24.0001L54.1041 39.896L51.4548 37.2467L62.8469 25.8546L-8.91548e-06 25.8545Z"/>
+</symbol><symbol viewBox="0 0 18 18" id="arrow-top-right" xmlns="http://www.w3.org/2000/svg">
+<path d="M3.50769 16L2 14.4923L12.3385 4.15385H3.07692V2H16V14.9231H13.8462V5.66154L3.50769 16Z"/>
+</symbol><symbol viewBox="0 0 24 24" id="phone" xmlns="http://www.w3.org/2000/svg">
+<path d="M21.5576 2.15479L21.8795 2.47675C23.4416 4.03884 23.4416 6.5715 21.8795 8.1336L8.63404 21.3791C7.07195 22.9412 4.53929 22.9412 2.97719 21.3791L2.65523 21.0571L21.5576 2.15479Z"/>
+<rect x="19.1947" y="-0.208008" width="3.34149" height="7.79681" transform="rotate(45 19.1947 -0.208008)"/>
+<rect x="5.80566" y="13.1812" width="3.34149" height="7.79681" transform="rotate(45 5.80566 13.1812)"/>
+</symbol></svg>
