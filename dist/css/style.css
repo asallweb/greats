@@ -474,10 +474,6 @@ body::after {
   border-bottom: 2px solid #161718;
 }
 
-#smooth-scrollbar {
-  height: 100vh;
-}
-
 .icon-menu {
   display: block;
   position: relative;
