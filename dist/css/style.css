@@ -474,6 +474,114 @@ body::after {
   border-bottom: 2px solid #161718;
 }
 
+.animated-title__line-wrapper {
+  overflow: hidden;
+  display: block;
+}
+
+.animated-title__line {
+  display: inline-block;
+  opacity: 0;
+}
+
+._watcher-view .animated-title__line {
+  -webkit-animation: slideUp 1s forwards;
+          animation: slideUp 1s forwards;
+  -webkit-transform: translateY(150%);
+      -ms-transform: translateY(150%);
+          transform: translateY(150%);
+}
+
+.animated-title__line-wrapper:nth-of-type(1) .animated-title__line {
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+}
+
+.animated-title__line-wrapper:nth-of-type(2) .animated-title__line {
+  -webkit-animation-delay: 0.15s;
+          animation-delay: 0.15s;
+}
+
+.animated-title__line-wrapper:nth-of-type(3) .animated-title__line {
+  -webkit-animation-delay: 0.3s;
+          animation-delay: 0.3s;
+}
+
+.animated-title__line-wrapper:nth-of-type(4) .animated-title__line {
+  -webkit-animation-delay: 0.45s;
+          animation-delay: 0.45s;
+}
+
+.animated-title__line-wrapper:nth-of-type(5) .animated-title__line {
+  -webkit-animation-delay: 0.6s;
+          animation-delay: 0.6s;
+}
+
+.animated-title__line-wrapper:nth-of-type(6) .animated-title__line {
+  -webkit-animation-delay: 0.75s;
+          animation-delay: 0.75s;
+}
+
+.animated-title__line-wrapper:nth-of-type(7) .animated-title__line {
+  -webkit-animation-delay: 0.9s;
+          animation-delay: 0.9s;
+}
+
+.animated-title__line-wrapper:nth-of-type(8) .animated-title__line {
+  -webkit-animation-delay: 0.105s;
+          animation-delay: 0.105s;
+}
+
+.animated-title__line-wrapper:nth-of-type(9) .animated-title__line {
+  -webkit-animation-delay: 0.12s;
+          animation-delay: 0.12s;
+}
+
+.animated-title__line-wrapper:nth-of-type(10) .animated-title__line {
+  -webkit-animation-delay: 0.135s;
+          animation-delay: 0.135s;
+}
+
+.animated-slideUp {
+  opacity: 0;
+}
+
+.animated-slideUp._watcher-view {
+  -webkit-animation: slideUp 1s forwards;
+          animation: slideUp 1s forwards;
+  -webkit-transform: translateY(150%);
+      -ms-transform: translateY(150%);
+          transform: translateY(150%);
+}
+
+@-webkit-keyframes slideUp {
+  0% {
+    -webkit-transform: translateY(150%);
+            transform: translateY(150%);
+    opacity: 0;
+  }
+
+  100% {
+    -webkit-transform: translateY(0%);
+            transform: translateY(0%);
+    opacity: 1;
+  }
+}
+
+@keyframes slideUp {
+  0% {
+    -webkit-transform: translateY(150%);
+            transform: translateY(150%);
+    opacity: 0;
+  }
+
+  100% {
+    -webkit-transform: translateY(0%);
+            transform: translateY(0%);
+    opacity: 1;
+  }
+}
+
 .icon-menu {
   display: block;
   position: relative;
