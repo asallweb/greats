@@ -4331,6 +4331,18 @@
                     nextEl: ".main-menu-next"
                 }
             });
+            if (document.querySelector(".blog-detail__slider")) new core(".blog-detail__slider", {
+                modules: [ Navigation ],
+                observer: true,
+                observeParents: true,
+                slidesPerView: 1,
+                spaceBetween: 15,
+                speed: 800,
+                navigation: {
+                    prevEl: ".blog-detail__button-prev",
+                    nextEl: ".blog-detail__button-next"
+                }
+            });
         }
         window.addEventListener("load", (function(e) {
             initSliders();
