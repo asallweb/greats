@@ -16,6 +16,23 @@
 </symbol><symbol viewBox="0 0 18 18" id="close" xmlns="http://www.w3.org/2000/svg">
 <line x1="1.70711" y1="1.29289" x2="16.5563" y2="16.1421" stroke="#161718" stroke-width="2"/>
 <line x1="1.22185" y1="16.435" x2="16.0711" y2="1.58574" stroke="#161718" stroke-width="2"/>
+</symbol><symbol viewBox="0 0 16 16" id="filter" xmlns="http://www.w3.org/2000/svg">
+<g id="fFrame 23" clip-path="url(#fclip0_1636_1526)">
+<g id="fGroup 82">
+<path id="fVector" d="M0 7H5V9H0M8 14V12H16V14M11 2H16V4H11V2Z"/>
+<path id="fVector_2" d="M10 15.5L10 10.5L8 10.5L8 15.5L10 15.5Z"/>
+<path id="fVector_3" d="M6 10.5L6 5.5L4 5.5L4 10.5L6 10.5Z"/>
+<path id="fVector_4" d="M12 5.5L12 0.5L10 0.5L10 5.5L12 5.5Z"/>
+<path id="fVector_5" d="M0 4L8 4L8 2L1.74845e-07 2L0 4Z"/>
+<path id="fVector_6" d="M8 9L16 9L16 7L8 7L8 9Z"/>
+<rect id="fRectangle 10" y="12" width="6" height="2"/>
+</g>
+</g>
+<defs>
+<clipPath id="fclip0_1636_1526">
+<rect width="16" height="16"/>
+</clipPath>
+</defs>
 </symbol><symbol viewBox="0 0 180 34" id="logo" xmlns="http://www.w3.org/2000/svg">
 <path d="M89.6442 2.13453V0.000137329H63.5572C62.2474 0.000137329 61.1857 1.0618 61.1857 2.37168V17.0752H89.6442V14.9409H71.1462V9.24915H88.2213V7.11476H71.1462V2.13453H89.6442Z"/>
 <path d="M149.407 0.000137329H139.447H130.909H120.949V2.13453H130.909V17.0752H139.447V2.13453H149.407V0.000137329Z"/>
@@ -44,6 +61,8 @@
 <path d="M21.5576 2.15479L21.8795 2.47675C23.4416 4.03884 23.4416 6.5715 21.8795 8.1336L8.63404 21.3791C7.07195 22.9412 4.53929 22.9412 2.97719 21.3791L2.65523 21.0571L21.5576 2.15479Z"/>
 <rect x="19.1947" y="-0.208008" width="3.34149" height="7.79681" transform="rotate(45 19.1947 -0.208008)"/>
 <rect x="5.80566" y="13.1812" width="3.34149" height="7.79681" transform="rotate(45 5.80566 13.1812)"/>
+</symbol><symbol viewBox="0 0 16 12" id="sorting" xmlns="http://www.w3.org/2000/svg">
+<path id="iVector" d="M0 5H10.6667V7H0M0 12V10H16V12M0 0H5.33333V2H0V0Z"/>
 </symbol><symbol viewBox="0 0 16 14" id="telegram" xmlns="http://www.w3.org/2000/svg">
 <path d="M14.2823 0.647753L0.992986 5.9517C0.458201 6.1987 0.277323 6.69333 0.863729 6.96177L4.273 8.08313L12.5162 2.81043C12.9663 2.47942 13.4271 2.56769 13.0306 2.93182L5.95078 9.56635L5.72838 12.3741C5.93437 12.8076 6.31154 12.8096 6.55212 12.5941L8.51085 10.6759L11.8655 13.2758C12.6446 13.7532 13.0686 13.4451 13.2362 12.5701L15.4366 1.78673C15.665 0.709653 15.2754 0.235083 14.2823 0.647753Z"/>
 </symbol><symbol viewBox="0 0 14 14" id="whatsapp" xmlns="http://www.w3.org/2000/svg">

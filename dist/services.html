@@ -6,7 +6,7 @@
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<!-- <style>body{opacity: 0;}</style> -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20230627182320">
+	<link rel="stylesheet" href="css/style.min.css?_v=20230628154508">
 	<link rel="shortcut icon" href="favicon.ico">
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -277,8 +277,108 @@
 				</div>
 			</div>
 		</div>
+		<div id="filter-side" aria-hidden="true" class="popup _right">
+			<div class="popup__wrapper">
+				<div class="popup__content">
+					<button data-close type="button" class="popup__close">
+						<svg width="16" height="16">
+							<use xlink:href="img/icons/icons.svg#close"></use>
+						</svg>
+					</button>
+					<div class="popup__text filter">
+						<div class="filter__title">Настроить фильтры</div>
+						<div class="form">
+							<div class="form__select-field">
+								<div class="form__select-title">Марка</div>
+								<div class="form__select-item">
+									<select name="form[]" data-show-selected data-class-modif="form">
+										<option value="1" selected>Выбрать</option>
+										<option value="2">Пункт №1</option>
+										<option value="3">Пункт №2</option>
+										<option value="4">Пункт №3</option>
+										<option value="5">Пункт №4</option>
+									</select>
+								</div>
+							</div>
+							<div class="form__select-field">
+								<div class="form__select-title">Модель</div>
+								<div class="form__select-item">
+									<select name="form[]" data-show-selected data-class-modif="form">
+										<option value="1" selected>Выбрать</option>
+										<option value="2">Пункт №1</option>
+										<option value="3">Пункт №2</option>
+										<option value="4">Пункт №3</option>
+										<option value="5">Пункт №4</option>
+									</select>
+								</div>
+							</div>
+							<div class="form__select-field">
+								<div class="form__select-title">Местонахождение</div>
+								<div class="form__select-item">
+									<select name="form[]" data-show-selected data-class-modif="form">
+										<option value="1" selected>Москва</option>
+										<option value="2">Город №1</option>
+										<option value="3">Город №2</option>
+										<option value="4">Город №3</option>
+										<option value="5">Город №4</option>
+									</select>
+								</div>
+							</div>
+						</div>
+						<div class="filter__buttons">
+							<div class="filter__buttons-title">Двигатель</div>
+							<div class="filter__buttons-list">
+								<button class="btn _transparent _active">Все</button>
+								<button class="btn _transparent">Бензиновый</button>
+								<button class="btn _transparent">Дизельный</button>
+								<button class="btn _transparent">Электро</button>
+							</div>
+						</div>
+						<div class="filter__footer">
+							<button class="btn _transparent _active">Применить</button>
+							<button class="btn _transparent">Сбросить</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="story-1" aria-hidden="true" class="popup _right">
+			<div class="popup__wrapper">
+				<div class="popup__content">
+					<button data-close type="button" class="popup__close">
+						<svg width="16" height="16">
+							<use xlink:href="img/icons/icons.svg#close"></use>
+						</svg>
+					</button>
+					<div class="popup__text history">
+						<div class="history__title">История марки Lamborghini</div>
+						<div class="history__line">
+							<div class="history__line-name">Страна</div>
+							<div class="history__line-title">Италия</div>
+						</div>
+						<div class="history__line">
+							<div class="history__line-name">Основания</div>
+							<div class="history__line-title">1963 год</div>
+						</div>
+						<div class="history__line">
+							<div class="history__line-name">Ключевые персоны</div>
+							<div class="history__line-title">Ферруччо Ламборгини</div>
+						</div>
+						<div class="history__image">
+							<picture><source srcset="img/content/history-1.webp" type="image/webp"><img src="img/content/history-1.png" alt="history-1"></picture>
+						</div>
+						<a href="" class="btn _black">
+							Читать историю марки
+							<svg width="18" height="18">
+								<use xlink:href="img/icons/icons.svg#arrow-top-right"></use>
+							</svg>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
 	</div>
-	<script src="js/app.min.js?_v=20230627182320"></script>
+	<script src="js/app.min.js?_v=20230628154508"></script>
 </body>
 
 </html>
