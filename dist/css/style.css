@@ -187,7 +187,7 @@ textarea:focus {
 }
 
 .input._calendar {
-  background-image: url("../../../img/icons/calendar.svg");
+  background-image: url("../img/icons/calendar.svg");
   background-position: left center;
   background-repeat: no-repeat;
   padding-left: 30px;
@@ -353,7 +353,7 @@ textarea.input {
   display: block;
   width: 16px;
   height: 16px;
-  background: url("../../../img/icons/filter.svg") 0 0 no-repeat;
+  background: url("../img/icons/filter.svg") 0 0 no-repeat;
 }
 
 .select__content {
