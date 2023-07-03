@@ -2526,6 +2526,7 @@ body::after {
   line-height: 1.4;
   text-transform: uppercase;
   max-width: 730px;
+  width: 100%;
 }
 
 .preorder__form {
