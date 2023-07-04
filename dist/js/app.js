@@ -3605,7 +3605,7 @@
             classes
         };
         const extendedDefaults = {};
-        class core_Swiper {
+        class Swiper {
             constructor(...args) {
                 let el;
                 let params;
@@ -3620,7 +3620,7 @@
                         const newParams = utils_extend({}, params, {
                             el: containerEl
                         });
-                        swipers.push(new core_Swiper(newParams));
+                        swipers.push(new Swiper(newParams));
                     }));
                     return swipers;
                 }
@@ -3969,26 +3969,26 @@
                 return defaults;
             }
             static installModule(mod) {
-                if (!core_Swiper.prototype.__modules__) core_Swiper.prototype.__modules__ = [];
-                const modules = core_Swiper.prototype.__modules__;
+                if (!Swiper.prototype.__modules__) Swiper.prototype.__modules__ = [];
+                const modules = Swiper.prototype.__modules__;
                 if (typeof mod === "function" && modules.indexOf(mod) < 0) modules.push(mod);
             }
             static use(module) {
                 if (Array.isArray(module)) {
-                    module.forEach((m => core_Swiper.installModule(m)));
-                    return core_Swiper;
+                    module.forEach((m => Swiper.installModule(m)));
+                    return Swiper;
                 }
-                core_Swiper.installModule(module);
-                return core_Swiper;
+                Swiper.installModule(module);
+                return Swiper;
             }
         }
         Object.keys(prototypes).forEach((prototypeGroup => {
             Object.keys(prototypes[prototypeGroup]).forEach((protoMethod => {
-                core_Swiper.prototype[protoMethod] = prototypes[prototypeGroup][protoMethod];
+                Swiper.prototype[protoMethod] = prototypes[prototypeGroup][protoMethod];
             }));
         }));
-        core_Swiper.use([ Resize, Observer ]);
-        const core = core_Swiper;
+        Swiper.use([ Resize, Observer ]);
+        const core = Swiper;
         function create_element_if_not_defined_createElementIfNotDefined(swiper, originalParams, params, checkProps) {
             if (swiper.params.createElements) Object.keys(checkProps).forEach((key => {
                 if (!params[key] && params.auto === true) {
@@ -4886,7 +4886,7 @@
                 observer: true,
                 observeParents: true,
                 slidesPerView: "auto",
-                spaceBetween: 0,
+                spaceBetween: 30,
                 autoHeight: true,
                 speed: 800,
                 navigation: {

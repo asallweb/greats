@@ -6,7 +6,7 @@
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<!-- <style>body{opacity: 0;}</style> -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20230703091023">
+	<link rel="stylesheet" href="css/style.min.css?_v=20230704175700">
 	<link rel="shortcut icon" href="favicon.ico">
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,384 +14,382 @@
 
 <body>
 	<div class="wrapper">
-		<div id="smooth-scrollbar">
-			<header data-scroll="500" data-scroll-show="100" class="header">
-				<div class="header__container">
-					<div class="header__menu menu">
-						<button type="button" class="menu__icon icon-menu"><span></span></button>
-					</div>
-					<a href="" class="header__logo _white">
-						<svg>
-							<use xlink:href="img/icons/icons.svg#logo"></use>
+		<header data-scroll="500" data-scroll-show="100" class="header" data-lp>
+			<div class="header__container">
+				<div class="header__menu menu">
+					<button type="button" class="menu__icon icon-menu"><span></span></button>
+				</div>
+				<a href="" class="header__logo _white">
+					<svg>
+						<use xlink:href="img/icons/icons.svg#logo"></use>
+					</svg>
+				</a>
+				<div class="header__contact">
+					<a href="tel:+7 495 789 99 99" class="header__contact-phone">
+						+7 495 789 99 99
+						<svg width="24" height="24">
+							<use xlink:href="img/icons/icons.svg#phone"></use>
 						</svg>
 					</a>
-					<div class="header__contact">
-						<a href="tel:+7 495 789 99 99" class="header__contact-phone">
-							+7 495 789 99 99
-							<svg width="24" height="24">
-								<use xlink:href="img/icons/icons.svg#phone"></use>
-							</svg>
-						</a>
-						<button class="header__contact-zakaz btn _grey" data-popup="#request">Заявка</button>
+					<button class="header__contact-zakaz btn _grey" data-popup="#request">Заявка</button>
+				</div>
+			</div>
+		</header>
+		<main class="page ">
+			<section class="main-slider swiper">
+				<div class="main-slider__wrapper swiper-wrapper">
+					<div class="main-slider__slide swiper-slide">
+						<picture><source srcset="img/content/slider-main-2.webp" type="image/webp"><img src="img/content/slider-main-2.png" alt="slider-main-2" loading="lazy"></picture>
+					</div>
+					<div class="main-slider__slide swiper-slide">
+						<picture><source srcset="img/content/slider-main-1.webp" type="image/webp"><img src="img/content/slider-main-1.png" alt="slider-main-1" loading="lazy"></picture>
+					</div>
+					<div class="main-slider__slide swiper-slide">
+						<picture><source srcset="img/content/slider-main-2.webp" type="image/webp"><img src="img/content/slider-main-2.png" alt="slider-main-2" loading="lazy"></picture>
 					</div>
 				</div>
-			</header>
-			<main class="page ">
-				<section class="main-slider swiper">
-					<div class="main-slider__wrapper swiper-wrapper">
-						<div class="main-slider__slide swiper-slide">
-							<picture><source srcset="img/content/slider-main-2.webp" type="image/webp"><img src="img/content/slider-main-2.png" alt="slider-main-2" loading="lazy"></picture>
+				<div class="main-slider__slide-content">
+					<div class="main-slider__title animated-title" data-watch data-watch-threshold="0.5">
+						<span class="animated-title__line-wrapper">
+							<span class="animated-title__line">Галерея</span>
+						</span>
+						<span class="animated-title__line-wrapper">
+							<span class="animated-title__line">современного</span>
+						</span>
+						<span class="animated-title__line-wrapper">
+							<span class="animated-title__line">автомобильного</span>
+						</span>
+						<span class="animated-title__line-wrapper">
+							<span class="animated-title__line">искусства</span>
+						</span>
+					</div>
+					<div class="main-slider__subtitle animated-title" data-watch data-watch-threshold="0.5">
+						<span class="animated-title__line-wrapper">
+							<span class="animated-title__line">
+								Самые лучшие и актуальные модели автомобилей от
+							</span>
+						</span>
+						<span class="animated-title__line-wrapper">
+							<span class="animated-title__line">
+								европейских и американских брендов в наличии
+							</span>
+						</span>
+					</div>
+					<a href="" class="btn _grey main-slider__detail animated-slideUp" data-watch data-watch-threshold="0.5">
+						Перейти в галерею
+						<svg width="18" height="18">
+							<use xlink:href="img/icons/icons.svg#arrow-top-right"></use>
+						</svg>
+					</a>
+				</div>
+				<div class="main-slider__pagination swiper-pagination"></div>
+			</section>
+			<div class="__container">
+				<section class="image-section">
+					<div class="image-section__images">
+						<div>
+							<picture><source srcset="img/content/image-1.webp" type="image/webp"><img src="img/content/image-1.png" alt="image-1" class="parallax"></picture>
 						</div>
-						<div class="main-slider__slide swiper-slide">
-							<picture><source srcset="img/content/slider-main-1.webp" type="image/webp"><img src="img/content/slider-main-1.png" alt="slider-main-1" loading="lazy"></picture>
-						</div>
-						<div class="main-slider__slide swiper-slide">
-							<picture><source srcset="img/content/slider-main-2.webp" type="image/webp"><img src="img/content/slider-main-2.png" alt="slider-main-2" loading="lazy"></picture>
+						<div>
+							<picture><source srcset="img/content/image-2.webp" type="image/webp"><img src="img/content/image-2.png" alt="image-2" class="parallax"></picture>
 						</div>
 					</div>
-					<div class="main-slider__slide-content">
-						<div class="main-slider__title animated-title" data-watch data-watch-threshold="0.5">
-							<span class="animated-title__line-wrapper">
-								<span class="animated-title__line">Галерея</span>
-							</span>
-							<span class="animated-title__line-wrapper">
-								<span class="animated-title__line">современного</span>
-							</span>
-							<span class="animated-title__line-wrapper">
-								<span class="animated-title__line">автомобильного</span>
-							</span>
-							<span class="animated-title__line-wrapper">
-								<span class="animated-title__line">искусства</span>
-							</span>
-						</div>
-						<div class="main-slider__subtitle animated-title" data-watch data-watch-threshold="0.5">
+					<div class="image-section__content">
+						<div class="image-section__title animated-title" data-watch data-watch-threshold="0.7">
 							<span class="animated-title__line-wrapper">
 								<span class="animated-title__line">
-									Самые лучшие и актуальные модели автомобилей от
+									Самый широкий и
 								</span>
 							</span>
 							<span class="animated-title__line-wrapper">
 								<span class="animated-title__line">
-									европейских и американских брендов в наличии
+									актуальный выбор лучших
+								</span>
+							</span>
+							<span class="animated-title__line-wrapper">
+								<span class="animated-title__line">
+									моделей в наличии в
+								</span>
+							</span>
+							<span class="animated-title__line-wrapper">
+								<span class="animated-title__line">
+									России для пополнения
+								</span>
+							</span>
+							<span class="animated-title__line-wrapper">
+								<span class="animated-title__line">
+									вашей коллекции
 								</span>
 							</span>
 						</div>
-						<a href="" class="btn _grey main-slider__detail animated-slideUp" data-watch data-watch-threshold="0.5">
-							Перейти в галерею
+						<a href="" class="btn _white image-section__detail animated-slideUp" data-watch data-watch-threshold="0.7">
+							Галерея автомобилей
+							<svg width="18" height="18">
+								<use xlink:href="img/icons/icons.svg#arrow-top-right"></use>
+							</svg>
+						</a>
+						<div class="image-section__subtitle">Не привязаны к конкретному бренду — поможем подобрать наиболее подходящий для вас автомобиль.</div>
+					</div>
+				</section>
+				<section class="brand-list swiper">
+					<div class="brand-list__swiper swiper">
+						<div class="brand-list__wrapper swiper-wrapper">
+							<div class="brand-list__slide swiper-slide">
+								<img src="img/brands/BMW.svg" alt="">
+							</div>
+							<div class="brand-list__slide swiper-slide">
+								<img src="img/brands/CADILLAC.svg" alt="">
+							</div>
+							<div class="brand-list__slide swiper-slide">
+								<img src="img/brands/EB.svg" alt="">
+							</div>
+							<div class="brand-list__slide swiper-slide">
+								<img src="img/brands/Ferrary.svg" alt="">
+							</div>
+							<div class="brand-list__slide swiper-slide">
+								<img src="img/brands/lamborghini.svg" alt="">
+							</div>
+							<div class="brand-list__slide swiper-slide">
+								<img src="img/brands/land-rover.svg" alt="">
+							</div>
+							<div class="brand-list__slide swiper-slide">
+								<img src="img/brands/lexus.svg" alt="">
+							</div>
+							<div class="brand-list__slide swiper-slide">
+								<img src="img/brands/mercedes.svg" alt="">
+							</div>
+							<div class="brand-list__slide swiper-slide">
+								<img src="img/brands/tesla.svg" alt="">
+							</div>
+							<div class="brand-list__slide swiper-slide">
+								<img src="img/brands/BMW.svg" alt="">
+							</div>
+							<div class="brand-list__slide swiper-slide">
+								<img src="img/brands/CADILLAC.svg" alt="">
+							</div>
+							<div class="brand-list__slide swiper-slide">
+								<img src="img/brands/EB.svg" alt="">
+							</div>
+							<div class="brand-list__slide swiper-slide">
+								<img src="img/brands/Ferrary.svg" alt="">
+							</div>
+							<div class="brand-list__slide swiper-slide">
+								<img src="img/brands/lamborghini.svg" alt="">
+							</div>
+							<div class="brand-list__slide swiper-slide">
+								<img src="img/brands/land-rover.svg" alt="">
+							</div>
+							<div class="brand-list__slide swiper-slide">
+								<img src="img/brands/lexus.svg" alt="">
+							</div>
+							<div class="brand-list__slide swiper-slide">
+								<img src="img/brands/mercedes.svg" alt="">
+							</div>
+							<div class="brand-list__slide swiper-slide">
+								<img src="img/brands/tesla.svg" alt="">
+							</div>
+							<div class="brand-list__slide swiper-slide">
+								<img src="img/brands/BMW.svg" alt="">
+							</div>
+							<div class="brand-list__slide swiper-slide">
+								<img src="img/brands/CADILLAC.svg" alt="">
+							</div>
+							<div class="brand-list__slide swiper-slide">
+								<img src="img/brands/EB.svg" alt="">
+							</div>
+							<div class="brand-list__slide swiper-slide">
+								<img src="img/brands/Ferrary.svg" alt="">
+							</div>
+							<div class="brand-list__slide swiper-slide">
+								<img src="img/brands/lamborghini.svg" alt="">
+							</div>
+							<div class="brand-list__slide swiper-slide">
+								<img src="img/brands/land-rover.svg" alt="">
+							</div>
+							<div class="brand-list__slide swiper-slide">
+								<img src="img/brands/lexus.svg" alt="">
+							</div>
+							<div class="brand-list__slide swiper-slide">
+								<img src="img/brands/mercedes.svg" alt="">
+							</div>
+							<div class="brand-list__slide swiper-slide">
+								<img src="img/brands/tesla.svg" alt="">
+							</div>
+						</div>
+					</div>
+					<div class="swiper-navigation">
+						<button type="button" class="brand-list-prev swiper-button-prev">
+							<svg width="70" height="48">
+								<use xlink:href="img/icons/icons.svg#arrow-left"></use>
+							</svg>
+						</button>
+						<button type="button" class="brand-list-next swiper-button-next">
+							<svg width="70" height="48">
+								<use xlink:href="img/icons/icons.svg#arrow-right"></use>
+							</svg>
+						</button>
+					</div>
+				</section>
+				<section class="image-section _img-right _bd-top _bd-bottom _pt-50-20 _pb-50-20">
+					<div class="image-section__content">
+						<div class="image-section__title animated-title" data-watch data-watch-threshold="0.7">
+							<span class="animated-title__line-wrapper">
+								<span class="animated-title__line">
+									Возьмем все заботы об
+								</span>
+							</span>
+							<span class="animated-title__line-wrapper">
+								<span class="animated-title__line">
+									автомобиле на себя во
+								</span>
+							</span>
+							<span class="animated-title__line-wrapper">
+								<span class="animated-title__line">
+									время покупки и даже
+								</span>
+							</span>
+							<span class="animated-title__line-wrapper">
+								<span class="animated-title__line">
+									после
+								</span>
+							</span>
+						</div>
+						<a href="" class="btn _white image-section__detail animated-slideUp" data-watch data-watch-threshold="0.7">
+							Услуги
 							<svg width="18" height="18">
 								<use xlink:href="img/icons/icons.svg#arrow-top-right"></use>
 							</svg>
 						</a>
 					</div>
-					<div class="main-slider__pagination swiper-pagination"></div>
+					<div class="image-section__images">
+						<div><picture><source srcset="img/content/image-3.webp" type="image/webp"><img src="img/content/image-3.png" alt="image-3" class="parallax"></picture></div>
+					</div>
 				</section>
-				<div class="__container">
-					<section class="image-section">
-						<div class="image-section__images">
-							<div>
-								<picture><source srcset="img/content/image-1.webp" type="image/webp"><img src="img/content/image-1.png" alt="image-1" class="parallax"></picture>
-							</div>
-							<div>
-								<picture><source srcset="img/content/image-2.webp" type="image/webp"><img src="img/content/image-2.png" alt="image-2" class="parallax"></picture>
-							</div>
+				<section class="image-section">
+					<div class="image-section__images">
+						<div>
+							<picture><source srcset="img/content/image-4.webp" type="image/webp"><img src="img/content/image-4.png" alt="image-4" class="parallax"></picture>
 						</div>
-						<div class="image-section__content">
-							<div class="image-section__title animated-title" data-watch data-watch-threshold="0.7">
-								<span class="animated-title__line-wrapper">
-									<span class="animated-title__line">
-										Самый широкий и
-									</span>
-								</span>
-								<span class="animated-title__line-wrapper">
-									<span class="animated-title__line">
-										актуальный выбор лучших
-									</span>
-								</span>
-								<span class="animated-title__line-wrapper">
-									<span class="animated-title__line">
-										моделей в наличии в
-									</span>
-								</span>
-								<span class="animated-title__line-wrapper">
-									<span class="animated-title__line">
-										России для пополнения
-									</span>
-								</span>
-								<span class="animated-title__line-wrapper">
-									<span class="animated-title__line">
-										вашей коллекции
-									</span>
-								</span>
-							</div>
-							<a href="" class="btn _white image-section__detail animated-slideUp" data-watch data-watch-threshold="0.7">
-								Галерея автомобилей
-								<svg width="18" height="18">
-									<use xlink:href="img/icons/icons.svg#arrow-top-right"></use>
-								</svg>
-							</a>
-							<div class="image-section__subtitle">Не привязаны к конкретному бренду — поможем подобрать наиболее подходящий для вас автомобиль.</div>
-						</div>
-					</section>
-					<section class="brand-list swiper">
-						<div class="brand-list__swiper swiper">
-							<div class="brand-list__wrapper swiper-wrapper">
-								<div class="brand-list__slide swiper-slide">
-									<img src="img/brands/BMW.svg" alt="">
-								</div>
-								<div class="brand-list__slide swiper-slide">
-									<img src="img/brands/CADILLAC.svg" alt="">
-								</div>
-								<div class="brand-list__slide swiper-slide">
-									<img src="img/brands/EB.svg" alt="">
-								</div>
-								<div class="brand-list__slide swiper-slide">
-									<img src="img/brands/Ferrary.svg" alt="">
-								</div>
-								<div class="brand-list__slide swiper-slide">
-									<img src="img/brands/lamborghini.svg" alt="">
-								</div>
-								<div class="brand-list__slide swiper-slide">
-									<img src="img/brands/land-rover.svg" alt="">
-								</div>
-								<div class="brand-list__slide swiper-slide">
-									<img src="img/brands/lexus.svg" alt="">
-								</div>
-								<div class="brand-list__slide swiper-slide">
-									<img src="img/brands/mercedes.svg" alt="">
-								</div>
-								<div class="brand-list__slide swiper-slide">
-									<img src="img/brands/tesla.svg" alt="">
-								</div>
-								<div class="brand-list__slide swiper-slide">
-									<img src="img/brands/BMW.svg" alt="">
-								</div>
-								<div class="brand-list__slide swiper-slide">
-									<img src="img/brands/CADILLAC.svg" alt="">
-								</div>
-								<div class="brand-list__slide swiper-slide">
-									<img src="img/brands/EB.svg" alt="">
-								</div>
-								<div class="brand-list__slide swiper-slide">
-									<img src="img/brands/Ferrary.svg" alt="">
-								</div>
-								<div class="brand-list__slide swiper-slide">
-									<img src="img/brands/lamborghini.svg" alt="">
-								</div>
-								<div class="brand-list__slide swiper-slide">
-									<img src="img/brands/land-rover.svg" alt="">
-								</div>
-								<div class="brand-list__slide swiper-slide">
-									<img src="img/brands/lexus.svg" alt="">
-								</div>
-								<div class="brand-list__slide swiper-slide">
-									<img src="img/brands/mercedes.svg" alt="">
-								</div>
-								<div class="brand-list__slide swiper-slide">
-									<img src="img/brands/tesla.svg" alt="">
-								</div>
-								<div class="brand-list__slide swiper-slide">
-									<img src="img/brands/BMW.svg" alt="">
-								</div>
-								<div class="brand-list__slide swiper-slide">
-									<img src="img/brands/CADILLAC.svg" alt="">
-								</div>
-								<div class="brand-list__slide swiper-slide">
-									<img src="img/brands/EB.svg" alt="">
-								</div>
-								<div class="brand-list__slide swiper-slide">
-									<img src="img/brands/Ferrary.svg" alt="">
-								</div>
-								<div class="brand-list__slide swiper-slide">
-									<img src="img/brands/lamborghini.svg" alt="">
-								</div>
-								<div class="brand-list__slide swiper-slide">
-									<img src="img/brands/land-rover.svg" alt="">
-								</div>
-								<div class="brand-list__slide swiper-slide">
-									<img src="img/brands/lexus.svg" alt="">
-								</div>
-								<div class="brand-list__slide swiper-slide">
-									<img src="img/brands/mercedes.svg" alt="">
-								</div>
-								<div class="brand-list__slide swiper-slide">
-									<img src="img/brands/tesla.svg" alt="">
-								</div>
-							</div>
-						</div>
-						<div class="swiper-navigation">
-							<button type="button" class="brand-list-prev swiper-button-prev">
-								<svg width="70" height="48">
-									<use xlink:href="img/icons/icons.svg#arrow-left"></use>
-								</svg>
-							</button>
-							<button type="button" class="brand-list-next swiper-button-next">
-								<svg width="70" height="48">
-									<use xlink:href="img/icons/icons.svg#arrow-right"></use>
-								</svg>
-							</button>
-						</div>
-					</section>
-					<section class="image-section _img-right _bd-top _bd-bottom _pt-50-20 _pb-50-20">
-						<div class="image-section__content">
-							<div class="image-section__title animated-title" data-watch data-watch-threshold="0.7">
-								<span class="animated-title__line-wrapper">
-									<span class="animated-title__line">
-										Возьмем все заботы об
-									</span>
-								</span>
-								<span class="animated-title__line-wrapper">
-									<span class="animated-title__line">
-										автомобиле на себя во
-									</span>
-								</span>
-								<span class="animated-title__line-wrapper">
-									<span class="animated-title__line">
-										время покупки и даже
-									</span>
-								</span>
-								<span class="animated-title__line-wrapper">
-									<span class="animated-title__line">
-										после
-									</span>
-								</span>
-							</div>
-							<a href="" class="btn _white image-section__detail animated-slideUp" data-watch data-watch-threshold="0.7">
-								Услуги
-								<svg width="18" height="18">
-									<use xlink:href="img/icons/icons.svg#arrow-top-right"></use>
-								</svg>
-							</a>
-						</div>
-						<div class="image-section__images">
-							<div><picture><source srcset="img/content/image-3.webp" type="image/webp"><img src="img/content/image-3.png" alt="image-3" class="parallax"></picture></div>
-						</div>
-					</section>
-					<section class="image-section">
-						<div class="image-section__images">
-							<div>
-								<picture><source srcset="img/content/image-4.webp" type="image/webp"><img src="img/content/image-4.png" alt="image-4" class="parallax"></picture>
-							</div>
-							<div>
-								<picture><source srcset="img/content/image-5.webp" type="image/webp"><img src="img/content/image-5.png" alt="image-5" class="parallax"></picture>
-							</div>
-						</div>
-						<div class="image-section__content">
-							<div class="image-section__title animated-title" data-watch data-watch-threshold="0.7">
-								<span class="animated-title__line-wrapper">
-									<span class="animated-title__line">
-										Найдем любой автомобиль
-									</span>
-								</span>
-								<span class="animated-title__line-wrapper">
-									<span class="animated-title__line">
-										для вашей коллекции — от
-									</span>
-								</span>
-								<span class="animated-title__line-wrapper">
-									<span class="animated-title__line">
-										редких винтажных лотов
-									</span>
-								</span>
-								<span class="animated-title__line-wrapper">
-									<span class="animated-title__line">
-										до новейших моделей в
-									</span>
-								</span>
-								<span class="animated-title__line-wrapper">
-									<span class="animated-title__line">
-										особенной комплектации
-									</span>
-								</span>
-							</div>
-							<a href="" class="btn _white image-section__detail animated-slideUp" data-watch data-watch-threshold="0.7">
-								Предзаказ
-								<svg width="18" height="18">
-									<use xlink:href="img/icons/icons.svg#arrow-top-right"></use>
-								</svg>
-							</a>
-						</div>
-					</section>
-					<section class="fllwdth-bnr">
-						<picture><source srcset="img/content/fllwdth-bnr-1.webp" type="image/webp"><img src="img/content/fllwdth-bnr-1.png" alt="fllwdth-bnr-1" class="parallax _show-only-desktop"></picture>
-						<picture><source srcset="img/content/fllwdth-bnr-1-mobile.webp" type="image/webp"><img src="img/content/fllwdth-bnr-1-mobile.png" alt="fllwdth-bnr-1" class="fllwdth-bnr__mobile-image _show-only-mobile"></picture>
-						<div class="fllwdth-bnr__content">
-							<div class="fllwdth-bnr__text animated-title" data-watch data-watch-threshold="0.7">
-								<span class="animated-title__line-wrapper">
-									<span class="animated-title__line">
-										GREATS — это больше чем продажа машин,
-									</span>
-								</span>
-								<span class="animated-title__line-wrapper">
-									<span class="animated-title__line">
-										мы фанаты автомобилей и всего что с ними
-									</span>
-								</span>
-								<span class="animated-title__line-wrapper">
-									<span class="animated-title__line">
-										связано. Поможем подобрать не просто самое
-									</span>
-								</span>
-								<span class="animated-title__line-wrapper">
-									<span class="animated-title__line">
-										лучшее на рынке, но и подарить вам новые
-									</span>
-								</span>
-								<span class="animated-title__line-wrapper">
-									<span class="animated-title__line">
-										уникальные эмоции.
-									</span>
-								</span>
-							</div>
-							<a href="" class="btn _grey fllwdth-bnr__detail animated-slideUp" data-watch data-watch-threshold="0.7">
-								GREATS blog
-								<svg width="18" height="18">
-									<use xlink:href="img/icons/icons.svg#arrow-top-right"></use>
-								</svg>
-							</a>
-						</div>
-					</section>
-				</div>
-			</main>
-			<footer class="footer">
-				<div class="footer__container">
-					<a href="" class="footer__logo _black">
-						<svg>
-							<use xlink:href="img/icons/icons.svg#logo"></use>
-						</svg>
-					</a>
-					<div class="footer__menu">
-						<div class="footer__menu-group">
-							<a href="" class="footer__menu-item">Каталог</a>
-							<a href="" class="footer__menu-item">Услуги</a>
-							<a href="" class="footer__menu-item">О нас</a>
-							<a href="" class="footer__menu-item">Блог</a>
-							<a href="" class="footer__menu-item">Контакты</a>
-						</div>
-						<div class="footer__menu-group">
-							<a href="tel:+7 495 789 99 99" class="footer__menu-item">+7 495 789 99 99</a>
-							<a href="mailto:welcome@greats.gallery" class="footer__menu-item">welcome@greats.gallery</a>
-							<a href="" class="footer__menu-item">YouTube</a>
-							<a href="" class="footer__menu-item">Instagram</a>
-							<a href="" class="footer__menu-item">Telegram </a>
-						</div>
-						<div class="footer__menu-group">
-							<a href="" class="footer__menu-item">Auto.ru</a>
-							<a href="" class="footer__menu-item">Avito</a>
+						<div>
+							<picture><source srcset="img/content/image-5.webp" type="image/webp"><img src="img/content/image-5.png" alt="image-5" class="parallax"></picture>
 						</div>
 					</div>
-					<div class="footer__button">
-						<button class=" btn _white" data-popup="#request">Заявка</button>
+					<div class="image-section__content">
+						<div class="image-section__title animated-title" data-watch data-watch-threshold="0.7">
+							<span class="animated-title__line-wrapper">
+								<span class="animated-title__line">
+									Найдем любой автомобиль
+								</span>
+							</span>
+							<span class="animated-title__line-wrapper">
+								<span class="animated-title__line">
+									для вашей коллекции — от
+								</span>
+							</span>
+							<span class="animated-title__line-wrapper">
+								<span class="animated-title__line">
+									редких винтажных лотов
+								</span>
+							</span>
+							<span class="animated-title__line-wrapper">
+								<span class="animated-title__line">
+									до новейших моделей в
+								</span>
+							</span>
+							<span class="animated-title__line-wrapper">
+								<span class="animated-title__line">
+									особенной комплектации
+								</span>
+							</span>
+						</div>
+						<a href="" class="btn _white image-section__detail animated-slideUp" data-watch data-watch-threshold="0.7">
+							Предзаказ
+							<svg width="18" height="18">
+								<use xlink:href="img/icons/icons.svg#arrow-top-right"></use>
+							</svg>
+						</a>
+					</div>
+				</section>
+				<section class="fllwdth-bnr">
+					<picture><source srcset="img/content/fllwdth-bnr-1.webp" type="image/webp"><img src="img/content/fllwdth-bnr-1.png" alt="fllwdth-bnr-1" class="parallax _show-only-desktop"></picture>
+					<picture><source srcset="img/content/fllwdth-bnr-1-mobile.webp" type="image/webp"><img src="img/content/fllwdth-bnr-1-mobile.png" alt="fllwdth-bnr-1" class="fllwdth-bnr__mobile-image _show-only-mobile"></picture>
+					<div class="fllwdth-bnr__content">
+						<div class="fllwdth-bnr__text animated-title" data-watch data-watch-threshold="0.7">
+							<span class="animated-title__line-wrapper">
+								<span class="animated-title__line">
+									GREATS — это больше чем продажа машин,
+								</span>
+							</span>
+							<span class="animated-title__line-wrapper">
+								<span class="animated-title__line">
+									мы фанаты автомобилей и всего что с ними
+								</span>
+							</span>
+							<span class="animated-title__line-wrapper">
+								<span class="animated-title__line">
+									связано. Поможем подобрать не просто самое
+								</span>
+							</span>
+							<span class="animated-title__line-wrapper">
+								<span class="animated-title__line">
+									лучшее на рынке, но и подарить вам новые
+								</span>
+							</span>
+							<span class="animated-title__line-wrapper">
+								<span class="animated-title__line">
+									уникальные эмоции.
+								</span>
+							</span>
+						</div>
+						<a href="" class="btn _grey fllwdth-bnr__detail animated-slideUp" data-watch data-watch-threshold="0.7">
+							GREATS blog
+							<svg width="18" height="18">
+								<use xlink:href="img/icons/icons.svg#arrow-top-right"></use>
+							</svg>
+						</a>
+					</div>
+				</section>
+			</div>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<a href="" class="footer__logo _black">
+					<svg>
+						<use xlink:href="img/icons/icons.svg#logo"></use>
+					</svg>
+				</a>
+				<div class="footer__menu">
+					<div class="footer__menu-group">
+						<a href="" class="footer__menu-item">Каталог</a>
+						<a href="" class="footer__menu-item">Услуги</a>
+						<a href="" class="footer__menu-item">О нас</a>
+						<a href="" class="footer__menu-item">Блог</a>
+						<a href="" class="footer__menu-item">Контакты</a>
+					</div>
+					<div class="footer__menu-group">
+						<a href="tel:+7 495 789 99 99" class="footer__menu-item">+7 495 789 99 99</a>
+						<a href="mailto:welcome@greats.gallery" class="footer__menu-item">welcome@greats.gallery</a>
+						<a href="" class="footer__menu-item">YouTube</a>
+						<a href="" class="footer__menu-item">Instagram</a>
+						<a href="" class="footer__menu-item">Telegram </a>
+					</div>
+					<div class="footer__menu-group">
+						<a href="" class="footer__menu-item">Auto.ru</a>
+						<a href="" class="footer__menu-item">Avito</a>
 					</div>
 				</div>
-				<div class="footer__bottom __container">
-					<a href="" class="footer__bottom-item">Политика конфиденциальности</a>
-					<div class="footer__bottom-middle">
-						<a href="" class="footer__bottom-item">Публичная оферта</a>
-					</div>
-					<span class="footer__bottom-item">© 2023. Designed for progress.</span>
+				<div class="footer__button">
+					<button class=" btn _white" data-popup="#request">Заявка</button>
 				</div>
-			</footer>
-		</div>
+			</div>
+			<div class="footer__bottom __container">
+				<a href="" class="footer__bottom-item">Политика конфиденциальности</a>
+				<div class="footer__bottom-middle">
+					<a href="" class="footer__bottom-item">Публичная оферта</a>
+				</div>
+				<span class="footer__bottom-item">© 2023. Designed for progress.</span>
+			</div>
+		</footer>
 		<nav class="main-menu">
 			<div class="main-menu__container">
 				<div class="main-menu__menu">
@@ -689,7 +687,7 @@
 			</div>
 		</div>
 	</div>
-	<script src="js/app.min.js?_v=20230703091023"></script>
+	<script src="js/app.min.js?_v=20230704175700"></script>
 </body>
 
 </html>
