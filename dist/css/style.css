@@ -826,6 +826,10 @@ body::after {
   padding-top: 20px;
 }
 
+summary::-webkit-details-marker {
+  display: none;
+}
+
 [class*=-ibg] {
   position: relative;
 }
