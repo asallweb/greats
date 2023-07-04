@@ -242,23 +242,48 @@ textarea:focus {
 }
 
 .input::-webkit-input-placeholder {
-  opacity: 1;
+  opacity: 0.6;
 }
 
 .input::-moz-placeholder {
-  opacity: 1;
+  opacity: 0.6;
 }
 
 .input:-ms-input-placeholder {
-  opacity: 1;
+  opacity: 0.6;
 }
 
 .input::-ms-input-placeholder {
-  opacity: 1;
+  opacity: 0.6;
 }
 
 .input::placeholder {
-  opacity: 1;
+  opacity: 0.6;
+}
+
+.input[placeholder]:not([data-placeholder-nohiden])::-webkit-input-placeholder {
+  -webkit-transition: opacity 0.3s;
+  transition: opacity 0.3s;
+}
+
+.input[placeholder]:not([data-placeholder-nohiden])::-moz-placeholder {
+  -moz-transition: opacity 0.3s;
+  transition: opacity 0.3s;
+}
+
+.input[placeholder]:not([data-placeholder-nohiden]):-ms-input-placeholder {
+  -ms-transition: opacity 0.3s;
+  transition: opacity 0.3s;
+}
+
+.input[placeholder]:not([data-placeholder-nohiden])::-ms-input-placeholder {
+  -ms-transition: opacity 0.3s;
+  transition: opacity 0.3s;
+}
+
+.input[placeholder]:not([data-placeholder-nohiden])::placeholder {
+  -webkit-transition: opacity 0.3s;
+  transition: opacity 0.3s;
 }
 
 .input[placeholder]:not([data-placeholder-nohiden]):focus::-webkit-input-placeholder {
@@ -4095,6 +4120,8 @@ button {
 
   .request {
     border-radius: 0;
+    margin-left: -15px;
+    margin-right: -15px;
   }
 
   .request__text {
