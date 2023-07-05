@@ -849,6 +849,10 @@ summary::-webkit-details-marker {
      object-fit: contain;
 }
 
+.page a:not(.btn):hover {
+  color: #6A6B6D;
+}
+
 a,
 button {
   -webkit-transition: 0.5s;
@@ -1434,7 +1438,7 @@ button {
 }
 
 .main-menu__socials a:hover {
-  text-decoration: underline;
+  color: #6A6B6D;
 }
 
 .main-menu__contacts {
@@ -1454,7 +1458,7 @@ button {
 }
 
 .main-menu__contacts-tel:hover {
-  text-decoration: underline;
+  color: #6A6B6D;
 }
 
 .main-menu__contacts-icon {
@@ -2365,7 +2369,7 @@ button {
 }
 
 .breadcrumb a:hover {
-  text-decoration: underline;
+  color: #6A6B6D;
 }
 
 .gallery__slider {
