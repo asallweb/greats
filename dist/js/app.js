@@ -5099,7 +5099,7 @@
                 if (scrollTop >= startPoint) {
                     !header.classList.contains("_header-scroll") ? header.classList.add("_header-scroll") : null;
                     if (headerShow) {
-                        if (scrollTop > scrollDirection) header.classList.contains("_header-show") ? header.classList.remove("_header-show") : null; else !header.classList.contains("_header-show") ? header.classList.add("_header-show") : null;
+                        if (scrollTop > scrollDirection) ; else !header.classList.contains("_header-show") ? header.classList.add("_header-show") : null;
                         timer = setTimeout((() => {
                             !header.classList.contains("_header-show") ? header.classList.add("_header-show") : null;
                         }), headerShowTimer);
