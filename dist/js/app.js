@@ -5205,7 +5205,15 @@
         da.init();
         var simpleParallax_min = __webpack_require__(102);
         let script_images = document.querySelectorAll(".parallax");
-        new simpleParallax_min(script_images);
+        var isSafariMacbook = /^((?!chrome|android).)*safari/i.test(navigator.userAgent) && /Mac/.test(navigator.platform);
+        if (isSafariMacbook) {
+            var script_elements = document.getElementsByClassName("parallax");
+            for (var i = 0; i < script_elements.length; i++) {
+                var script_element = script_elements[i];
+                script_element.classList.remove("parallax");
+                script_element.classList.add("_scale-130");
+            }
+        } else new simpleParallax_min(script_images);
         window["FLS"] = true;
         isWebp();
         menuInit();

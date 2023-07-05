@@ -1060,6 +1060,12 @@ button {
   font-weight: 550;
 }
 
+._scale-130 {
+  -webkit-transform: scale(1.3);
+      -ms-transform: scale(1.3);
+          transform: scale(1.3);
+}
+
 .animated-title__line-wrapper {
   overflow: hidden;
   display: block;
@@ -1130,9 +1136,11 @@ button {
 
 .animated-slideUp {
   opacity: 0;
+  visibility: hidden;
 }
 
 .animated-slideUp._watcher-view {
+  visibility: visible;
   -webkit-animation: slideUp 1s forwards;
           animation: slideUp 1s forwards;
   -webkit-transform: translateY(150%);
