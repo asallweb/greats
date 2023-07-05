@@ -2622,6 +2622,7 @@ button {
   text-transform: uppercase;
   max-width: 730px;
   width: 100%;
+  font-weight: 400;
 }
 
 .preorder__form {
