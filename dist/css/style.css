@@ -1141,17 +1141,17 @@ button {
 
 .animated-slideUp._watcher-view {
   visibility: visible;
-  -webkit-animation: slideUp 1s forwards;
-          animation: slideUp 1s forwards;
-  -webkit-transform: translateY(150%);
-      -ms-transform: translateY(150%);
-          transform: translateY(150%);
+  -webkit-animation: slideUp 1.2s forwards;
+          animation: slideUp 1.2s forwards;
+  -webkit-transform: translateY(40px);
+      -ms-transform: translateY(40px);
+          transform: translateY(40px);
 }
 
 @-webkit-keyframes slideUp {
   0% {
-    -webkit-transform: translateY(150%);
-            transform: translateY(150%);
+    -webkit-transform: translateY(40px);
+            transform: translateY(40px);
     opacity: 0;
   }
 
@@ -1164,8 +1164,8 @@ button {
 
 @keyframes slideUp {
   0% {
-    -webkit-transform: translateY(150%);
-            transform: translateY(150%);
+    -webkit-transform: translateY(40px);
+            transform: translateY(40px);
     opacity: 0;
   }
 
@@ -2622,7 +2622,7 @@ button {
   text-transform: uppercase;
   max-width: 730px;
   width: 100%;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 .preorder__form {
