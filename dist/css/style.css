@@ -1696,7 +1696,7 @@ button {
   position: absolute;
   bottom: 60px;
   max-width: 610px;
-  left: calc((100vw - 1480px) / 2);
+  left: calc((100vw - 1450px) / 2);
 }
 
 .main-slider__title {
@@ -3149,6 +3149,12 @@ button {
   }
 }
 
+@media (min-width: 1200px) {
+  [class*=__container] {
+    padding: 0 30px !important;
+  }
+}
+
 @media (min-width: 1515px) {
   .footer__bottom {
     padding-left: 0;
@@ -3164,7 +3170,7 @@ button {
 
 @media (max-width: 1510px) {
   .main-slider__slide-content {
-    left: 15px;
+    left: 30px;
   }
 }
 
@@ -3206,6 +3212,10 @@ button {
 }
 
 @media (max-width: 1200px) {
+  .main-slider__slide-content {
+    left: 15px;
+  }
+
   .catalog__list {
     -ms-grid-columns: (1fr)[2];
     grid-template-columns: repeat(2, 1fr);
@@ -3915,7 +3925,6 @@ button {
   }
 
   .main-slider__slide-content {
-    left: 20px;
     max-width: calc(100% - 40px);
     bottom: 106px;
   }
