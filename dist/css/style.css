@@ -426,7 +426,7 @@ textarea.input {
   display: block;
   width: 16px;
   height: 16px;
-  background: url("../img/icons/filter.svg") 0 0 no-repeat;
+  background: url("../img/icons/sorting.svg") 0 0 no-repeat;
 }
 
 .select__content {
