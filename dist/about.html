@@ -6,13 +6,39 @@
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<!-- <style>body{opacity: 0;}</style> -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20230808094946">
+	<link rel="stylesheet" href="css/style.min.css?_v=20230817095431">
 	<link rel="shortcut icon" href="favicon.ico">
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+		.pre-loader {
+			background-color: #fff;
+			position: fixed;
+			height: 100%;
+			width: 100%;
+			left: 0;
+			top: 0;
+			z-index: 999;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+	</style>
+	<script>
+		window.addEventListener('load', function() {
+			document.querySelector('.pre-loader').style.display = 'none';
+		});
+	</script>
 </head>
 
 <body>
+	<div class="pre-loader">
+		<div class="loader">
+			<svg>
+				<use xlink:href="img/icons/icons.svg#logo"></use>
+			</svg>
+		</div>
+	</div>
 	<div class="wrapper">
 		<header data-scroll="500" data-scroll-show="0" class="header" data-lp>
 			<div class="header__container">
@@ -432,7 +458,7 @@
 			</div>
 		</div>
 	</div>
-	<script src="js/app.min.js?_v=20230808094946"></script>
+	<script src="js/app.min.js?_v=20230817095431"></script>
 </body>
 
 </html>
