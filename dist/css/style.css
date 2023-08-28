@@ -2641,6 +2641,10 @@ button {
   min-width: 500px;
 }
 
+@page {
+  margin: 1cm 0.4cm;
+}
+
 .swiper {
   overflow: hidden;
 }
@@ -5591,5 +5595,42 @@ button {
 @media (any-hover: none) {
   .icon-menu {
     cursor: default;
+  }
+}
+
+@media print {
+  .header__contact {
+    opacity: 0;
+  }
+
+  .product__content-buttons {
+    display: none;
+  }
+
+  .product__head-tools ._print {
+    display: none;
+  }
+
+  .gallery.content-gallery {
+    display: none;
+  }
+
+  .catalog {
+    display: none;
+  }
+
+  .footer__menu-group:first-child,
+  .footer__menu-group:last-child {
+    display: none;
+  }
+
+  .footer__menu-item:nth-child(3),
+  .footer__menu-item:nth-child(4),
+  .footer__menu-item:nth-child(5) {
+    display: none;
+  }
+
+  .footer__bottom-outer {
+    display: none;
   }
 }
