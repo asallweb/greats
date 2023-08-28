@@ -205,6 +205,26 @@ body {
   margin-bottom: 10px;
 }
 
+.form__file-outer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+  font-size: 15px;
+}
+
+.form__file-upload-label {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  cursor: pointer;
+  padding: 5px 10px !important;
+  font-size: 12px !important;
+  font-weight: 550 !important;
+}
+
 input[type=text],
 input[type=email],
 input[type=tel],
@@ -2828,6 +2848,10 @@ button {
     margin-bottom: 3.125rem;
   }
 
+  ._mb-30-15 {
+    margin-bottom: 1.875rem;
+  }
+
   ._fz-25-20 {
     font-size: 1.5625rem;
   }
@@ -3507,6 +3531,10 @@ button {
 
   ._mb-50-30 {
     margin-bottom: 1.875rem;
+  }
+
+  ._mb-30-15 {
+    margin-bottom: 0.9375rem;
   }
 
   ._fz-25-20 {
@@ -4524,6 +4552,18 @@ button {
 @supports not (margin-bottom: clamp( 1.875rem , 1.5388655462rem  +  1.6806722689vw , 3.125rem )) {
     ._mb-50-30 {
       margin-bottom: calc(1.875rem + 1.25 * (100vw - 20rem) / 74.375);
+    }
+}
+
+@supports (margin-bottom: clamp( 0.9375rem , 0.6853991597rem  +  1.2605042017vw , 1.875rem )) {
+    ._mb-30-15 {
+      margin-bottom: clamp( 0.9375rem , 0.6853991597rem  +  1.2605042017vw , 1.875rem );
+    }
+}
+
+@supports not (margin-bottom: clamp( 0.9375rem , 0.6853991597rem  +  1.2605042017vw , 1.875rem )) {
+    ._mb-30-15 {
+      margin-bottom: calc(0.9375rem + 0.9375 * (100vw - 20rem) / 74.375);
     }
 }
 

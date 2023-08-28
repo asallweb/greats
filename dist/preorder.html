@@ -6,7 +6,7 @@
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<!-- <style>body{opacity: 0;}</style> -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20230828094315">
+	<link rel="stylesheet" href="css/style.min.css?_v=20230828105815">
 	<link rel="shortcut icon" href="favicon.ico">
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -435,8 +435,60 @@
 				</div>
 			</div>
 		</div>
+		<div id="complect" aria-hidden="true" class="popup">
+			<div class="popup__wrapper">
+				<div class="popup__content">
+					<button data-close="" type="button" class="popup__close">
+						<svg width="16" height="16">
+							<use xlink:href="/local/templates/greaimg/icons/icons.svg#close"></use>
+						</svg>
+					</button>
+					<div class="popup__text">
+						<div class="popup__title">Заявка на подбор комплектации</div>
+						<div class="popup__subtitle">Оставьте заявку и мы поможем подобрать идеальную комплектацию автомобиля</div>
+						<div class="form">
+							<form>
+								<div class="form__row">
+									<input type="text" class="input" placeholder="Имя*" value="">
+								</div>
+								<div class="form__row">
+									<input type="text" class="input tel" placeholder="RU +7 (___) ___ __ __*" value="">
+								</div>
+								<div class="form__row">
+									<div class="_fz-15 _mb-30-15">Прикрепите файл при необходимости</div>
+									<div class="form__file-outer">
+										<label for="form_file_24" class="form__file-upload-label btn _black">
+											Выберите файл
+										</label>
+										<span>Файл не выбран</span>
+									</div>
+									<input type="file" id="form_file_24" name="form_file_24" style="display:none;">
+								</div>
+
+								<div class="form__row _2cols">
+									<div class="form__column">
+										<button type="submit" class="btn _black">
+											Отправить заявку
+											<svg width="18" height="18">
+												<use xlink:href="/local/templates/greaimg/icons/icons.svg#arrow-top-right"></use>
+											</svg>
+										</button>
+									</div>
+									<div class="form__column _aicenter">
+										<div class="form__note">
+											Нажимая на кнопку вы соглашаетесь с
+											<a href="/privacy.php" target="_black">политикой конфиденциальности</a>.
+										</div>
+									</div>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 	</div>
-	<script src="js/app.min.js?_v=20230828094315"></script>
+	<script src="js/app.min.js?_v=20230828105815"></script>
 </body>
 
 </html>
