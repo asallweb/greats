@@ -1166,12 +1166,14 @@ button {
   -webkit-transform: translateY(30px);
       -ms-transform: translateY(30px);
           transform: translateY(30px);
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
 }
 
 @-webkit-keyframes slideUp {
   0% {
-    -webkit-transform: translateY(40px);
-            transform: translateY(40px);
+    -webkit-transform: translateY(30px);
+            transform: translateY(30px);
     opacity: 0;
   }
 
@@ -1184,8 +1186,8 @@ button {
 
 @keyframes slideUp {
   0% {
-    -webkit-transform: translateY(40px);
-            transform: translateY(40px);
+    -webkit-transform: translateY(30px);
+            transform: translateY(30px);
     opacity: 0;
   }
 
