@@ -1016,6 +1016,10 @@ button {
   margin: 0 auto;
 }
 
+._mb-10 {
+  margin-bottom: 10px;
+}
+
 ._mb-30 {
   margin-bottom: 30px;
 }
@@ -2663,6 +2667,10 @@ button {
   min-width: 500px;
 }
 
+._show-on-print {
+  display: none;
+}
+
 @page {
   margin: 1cm 0.4cm;
 }
@@ -2885,7 +2893,7 @@ button {
   }
 
   .main-menu__pages-item {
-    font-size: 3.125rem;
+    font-size: 2.5rem;
   }
 
   .footer {
@@ -3570,7 +3578,7 @@ button {
   }
 
   .main-menu__pages-item {
-    font-size: 2.5rem;
+    font-size: 1.875rem;
   }
 
   .footer {
@@ -4657,15 +4665,15 @@ button {
     }
 }
 
-@supports (font-size: clamp( 2.5rem , 2.3319327731rem  +  0.8403361345vw , 3.125rem )) {
+@supports (font-size: clamp( 1.875rem , 1.7069327731rem  +  0.8403361345vw , 2.5rem )) {
     .main-menu__pages-item {
-      font-size: clamp( 2.5rem , 2.3319327731rem  +  0.8403361345vw , 3.125rem );
+      font-size: clamp( 1.875rem , 1.7069327731rem  +  0.8403361345vw , 2.5rem );
     }
 }
 
-@supports not (font-size: clamp( 2.5rem , 2.3319327731rem  +  0.8403361345vw , 3.125rem )) {
+@supports not (font-size: clamp( 1.875rem , 1.7069327731rem  +  0.8403361345vw , 2.5rem )) {
     .main-menu__pages-item {
-      font-size: calc(2.5rem + 0.625 * (100vw - 20rem) / 74.375);
+      font-size: calc(1.875rem + 0.625 * (100vw - 20rem) / 74.375);
     }
 }
 
@@ -5641,6 +5649,14 @@ button {
 }
 
 @media print {
+  ._show-on-print {
+    display: block;
+  }
+
+  ._hide-on-print {
+    display: none;
+  }
+
   .header__contact {
     opacity: 0;
   }
