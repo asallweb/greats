@@ -1847,6 +1847,8 @@ button {
 
 .brand-list .brand-list__swiper {
   position: relative;
+  mask: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0)), color-stop(6%, #000), to(rgba(0, 0, 0, 0)));
+  mask: linear-gradient(90deg, rgba(0, 0, 0, 0), #000 6% 94%, rgba(0, 0, 0, 0));
   -webkit-mask: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0)), color-stop(6%, #000), to(rgba(0, 0, 0, 0)));
   -webkit-mask: linear-gradient(90deg, rgba(0, 0, 0, 0), #000 6% 94%, rgba(0, 0, 0, 0));
 }
@@ -2476,6 +2478,8 @@ button {
 
 .gallery__slider-thumbs {
   position: relative;
+  mask: -webkit-gradient(linear, left top, right top, from(#000), color-stop(6%, #000), to(rgba(0, 0, 0, 0)));
+  mask: linear-gradient(90deg, #000, #000 6% 94%, rgba(0, 0, 0, 0));
   -webkit-mask: -webkit-gradient(linear, left top, right top, from(#000), color-stop(6%, #000), to(rgba(0, 0, 0, 0)));
   -webkit-mask: linear-gradient(90deg, #000, #000 6% 94%, rgba(0, 0, 0, 0));
 }
