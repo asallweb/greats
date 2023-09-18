@@ -4173,13 +4173,20 @@ button {
     max-width: 175px;
   }
 
+  .catalog__heading {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+  }
+
   .catalog__list {
     -ms-grid-columns: (1fr)[1];
     grid-template-columns: repeat(1, 1fr);
   }
 
   .catalog .select {
-    margin-left: auto;
+    margin-right: auto;
   }
 
   .catalog .select__title {
@@ -4188,8 +4195,6 @@ button {
   }
 
   .catalog .select__options {
-    left: auto;
-    right: 0;
     min-width: 200px;
   }
 
