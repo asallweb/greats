@@ -5205,11 +5205,15 @@
         da.init();
         var simpleParallax_min = __webpack_require__(102);
         let script_images = document.querySelectorAll(".parallax");
+        let userAgent = navigator.userAgent.toLowerCase();
+        let isMobileSafari = /iphone|ipad|ipod|safari/.test(userAgent) && !window.MSStream;
+        let isYandexBrowser = /yabrowser/.test(userAgent);
+        let isSafariForMac = /macintosh.*safari/.test(userAgent);
         let isSafariMacbook = /^((?!chrome|android).)*safari/i.test(navigator.userAgent) && /Mac/.test(navigator.platform);
-        if (isSafariMacbook) for (var i = 0; i < script_images.length; i++) {
-            var script_element = script_images[i];
-            script_element.classList.remove("parallax");
-            script_element.classList.add("_scale-130");
+        if (isMobileSafari || isYandexBrowser || isSafariForMac || isSafariMacbook) for (let i = 0; i < script_images.length; i++) {
+            let element = script_images[i];
+            element.classList.remove("parallax");
+            element.classList.add("_scale-130");
         } else new simpleParallax_min(script_images);
         window["FLS"] = false;
         isWebp();
