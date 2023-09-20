@@ -4093,11 +4093,6 @@ button {
 
   .footer__menu-group {
     min-width: 150px;
-    row-gap: 20px;
-    -webkit-column-gap: 20px;
-       -moz-column-gap: 20px;
-            column-gap: 20px;
-    gap: 20px;
   }
 
   .footer__menu-item {
