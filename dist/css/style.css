@@ -2680,6 +2680,12 @@ button {
 .product__title {
   line-height: 1.2;
   margin-bottom: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .product__title b {
@@ -4372,7 +4378,7 @@ button {
     min-width: 200px;
   }
 
-  .catalog .select__content {
+  .catalog .catalog__heading .select__content {
     display: none;
   }
 
