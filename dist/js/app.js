@@ -691,8 +691,8 @@
                     closeEsc: true,
                     bodyLock: true,
                     hashSettings: {
-                        location: true,
-                        goHash: true
+                        location: false,
+                        goHash: false
                     },
                     on: {
                         beforeOpen: function() {},
