@@ -228,6 +228,7 @@ body {
 input[type=text],
 input[type=email],
 input[type=tel],
+input[type=datetime-local],
 textarea {
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -244,6 +245,7 @@ textarea {
 input[type=text]:focus,
 input[type=email]:focus,
 input[type=tel]:focus,
+input[type=datetime-local]:focus,
 textarea:focus {
   outline: none;
 }
@@ -1220,6 +1222,16 @@ button {
 
 *:-webkit-direct-focus {
   outline: none;
+}
+
+.input._calendar::-moz-calendar-tool {
+  display: none;
+}
+
+.input._calendar::-webkit-calendar-picker-indicator,
+.input._calendar::-webkit-inner-spin-button,
+.input._calendar::-webkit-clear-button {
+  display: none;
 }
 
 .icon-menu {
