@@ -1225,13 +1225,13 @@ button {
 }
 
 .input._calendar::-moz-calendar-tool {
-  display: none;
+  opacity: 0;
 }
 
 .input._calendar::-webkit-calendar-picker-indicator,
 .input._calendar::-webkit-inner-spin-button,
 .input._calendar::-webkit-clear-button {
-  display: none;
+  opacity: 0;
 }
 
 .icon-menu {
