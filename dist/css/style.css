@@ -3519,25 +3519,14 @@ button {
   }
 }
 
-@media (max-width: 48em) {
-  .main-menu__slide-image {
-    height: 7.5rem;
-  }
-
-  .main-menu__slide-title {
-    font-size: 1.25rem;
-  }
-
-  .image-section__title {
-    font-size: 1.875rem;
-  }
-
-  .services {
-    gap: 1.875rem;
-  }
-}
-
 @media (max-width: 768px) {
+  .input._calendar {
+    background-image: url("../img/icons/calendar.svg");
+    background-position: left center;
+    background-repeat: no-repeat;
+    padding-left: 30px;
+  }
+
   .gallery__slider-bottom-navigation {
     display: none;
   }
@@ -3573,6 +3562,24 @@ button {
        -moz-column-gap: 20px;
             column-gap: 20px;
     gap: 20px;
+  }
+}
+
+@media (max-width: 48em) {
+  .main-menu__slide-image {
+    height: 7.5rem;
+  }
+
+  .main-menu__slide-title {
+    font-size: 1.25rem;
+  }
+
+  .image-section__title {
+    font-size: 1.875rem;
+  }
+
+  .services {
+    gap: 1.875rem;
   }
 }
 
