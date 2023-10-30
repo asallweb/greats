@@ -257,10 +257,8 @@ textarea:focus {
 }
 
 .input._calendar {
-  background-image: url("../img/icons/calendar.svg");
   background-position: left center;
   background-repeat: no-repeat;
-  padding-left: 30px;
 }
 
 .input::-webkit-input-placeholder {
@@ -1222,16 +1220,6 @@ button {
 
 *:-webkit-direct-focus {
   outline: none;
-}
-
-.input._calendar::-moz-calendar-tool {
-  opacity: 0;
-}
-
-.input._calendar::-webkit-calendar-picker-indicator,
-.input._calendar::-webkit-inner-spin-button,
-.input._calendar::-webkit-clear-button {
-  opacity: 0;
 }
 
 .icon-menu {
