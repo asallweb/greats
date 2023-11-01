@@ -6,7 +6,7 @@
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<!-- <style>body{opacity: 0;}</style> -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20231030121107">
+	<link rel="stylesheet" href="css/style.min.css?_v=20231101144626">
 	<link rel="shortcut icon" href="favicon.ico">
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -101,17 +101,22 @@
 								</div>
 							</div>
 							<div class="gallery product-gallery">
+								<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js?_v=20231101144626"></script>
+								<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css?_v=20231101144626" />
+								<script>
+									Fancybox.bind("[data-fancybox]", {});
+								</script>
 								<div class="gallery__slider product-gallery__slider swiper">
 									<div class="gallery__wrapper swiper-wrapper">
-										<div class="gallery__slide swiper-slide">
+										<a href="img/content/gallery-1.png" class="gallery__slide swiper-slide" data-fancybox="gallery">
 											<picture><source srcset="img/content/gallery-1.webp" type="image/webp"><img src="img/content/gallery-1.png" alt=""></picture>
-										</div>
-										<div class="gallery__slide swiper-slide">
+										</a>
+										<a href="img/content/blog-list-1.png" class="gallery__slide swiper-slide" data-fancybox="gallery">
 											<picture><source srcset="img/content/blog-list-1.webp" type="image/webp"><img src="img/content/blog-list-1.png" alt=""></picture>
-										</div>
-										<div class="gallery__slide swiper-slide">
+										</a>
+										<a href="img/content/blog-list-2.png" class="gallery__slide swiper-slide" data-fancybox="gallery">
 											<picture><source srcset="img/content/blog-list-2.webp" type="image/webp"><img src="img/content/blog-list-2.png" alt=""></picture>
-										</div>
+										</a>
 										<div class="gallery__slide swiper-slide">
 											<iframe width="100%" height="100%" src="https://www.youtube.com/embed/Tb5aO78Au1c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 										</div>
@@ -883,7 +888,7 @@
 			</div>
 		</div>
 	</div>
-	<script src="js/app.min.js?_v=20231030121107"></script>
+	<script src="js/app.min.js?_v=20231101144626"></script>
 </body>
 
 </html>
