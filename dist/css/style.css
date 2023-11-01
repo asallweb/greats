@@ -1222,6 +1222,10 @@ button {
   outline: none;
 }
 
+.fancybox__container {
+  max-width: 100% !important;
+}
+
 .icon-menu {
   display: block;
   position: relative;
