@@ -6,7 +6,7 @@
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<!-- <style>body{opacity: 0;}</style> -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20231101144952">
+	<link rel="stylesheet" href="css/style.min.css?_v=20231101151858">
 	<link rel="shortcut icon" href="favicon.ico">
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -101,10 +101,18 @@
 								</div>
 							</div>
 							<div class="gallery product-gallery">
-								<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js?_v=20231101144952"></script>
-								<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css?_v=20231101144952" />
+								<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js?_v=20231101151858"></script>
+								<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css?_v=20231101151858" />
 								<script>
-									Fancybox.bind("[data-fancybox]", {});
+									Fancybox.bind("[data-fancybox]", {
+										Thumbs: {
+											type: "classic",
+										},
+										Images: {
+											zoom: false,
+										},
+										showClass: "classic",
+									});
 								</script>
 								<div class="gallery__slider product-gallery__slider swiper">
 									<div class="gallery__wrapper swiper-wrapper">
@@ -888,7 +896,7 @@
 			</div>
 		</div>
 	</div>
-	<script src="js/app.min.js?_v=20231101144952"></script>
+	<script src="js/app.min.js?_v=20231101151858"></script>
 </body>
 
 </html>
