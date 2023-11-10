@@ -6,7 +6,7 @@
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<!-- <style>body{opacity: 0;}</style> -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20231101151858">
+	<link rel="stylesheet" href="css/style.min.css?_v=20231110091541">
 	<link rel="shortcut icon" href="favicon.ico">
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -26,7 +26,9 @@
 	</style>
 	<script>
 		window.addEventListener('load', function() {
-			document.querySelector('.pre-loader').style.display = 'none';
+			setTimeout(() => {
+				document.querySelector('.pre-loader').style.display = 'none';
+			}, 500);
 		});
 	</script>
 </head>
@@ -101,8 +103,8 @@
 								</div>
 							</div>
 							<div class="gallery product-gallery">
-								<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js?_v=20231101151858"></script>
-								<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css?_v=20231101151858" />
+								<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js?_v=20231110091541"></script>
+								<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css?_v=20231110091541" />
 								<script>
 									Fancybox.bind("[data-fancybox]", {
 										Thumbs: {
@@ -116,6 +118,9 @@
 								</script>
 								<div class="gallery__slider product-gallery__slider swiper">
 									<div class="gallery__wrapper swiper-wrapper">
+										<a href="img/content/slider-main-1.png" class="gallery__slide swiper-slide" data-fancybox="gallery">
+											<picture><source srcset="img/content/slider-main-1.webp" type="image/webp"><img src="img/content/slider-main-1.png" alt=""></picture>
+										</a>
 										<a href="img/content/gallery-1.png" class="gallery__slide swiper-slide" data-fancybox="gallery">
 											<picture><source srcset="img/content/gallery-1.webp" type="image/webp"><img src="img/content/gallery-1.png" alt=""></picture>
 										</a>
@@ -148,6 +153,9 @@
 								<div class="gallery__slider-bottom">
 									<div class="gallery__slider-thumbs product-gallery__slider-thumbs swiper">
 										<div class="gallery__wrapper swiper-wrapper">
+											<div class="gallery__slide swiper-slide _thumb">
+												<picture><source srcset="img/content/slider-main-1.webp" type="image/webp"><img src="img/content/slider-main-1.png" alt=""></picture>
+											</div>
 											<div class="gallery__slide swiper-slide _thumb">
 												<picture><source srcset="img/content/gallery-1-thumb.webp" type="image/webp"><img src="img/content/gallery-1-thumb.png" alt=""></picture>
 											</div>
@@ -896,7 +904,7 @@
 			</div>
 		</div>
 	</div>
-	<script src="js/app.min.js?_v=20231101151858"></script>
+	<script src="js/app.min.js?_v=20231110091541"></script>
 </body>
 
 </html>
