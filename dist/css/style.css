@@ -1226,6 +1226,10 @@ button {
   max-width: 100% !important;
 }
 
+.fancybox__container .fancybox__toolbar__column.is-right button:nth-child(2) {
+  display: none;
+}
+
 .icon-menu {
   display: block;
   position: relative;
